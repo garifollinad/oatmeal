@@ -6,8 +6,13 @@ using Oatmeal.Models;
 
 namespace Oatmeal.Models
 {
+
     public class ShoppingCartActions : IDisposable
     {
+        private void Page_Load(object sender, EventArgs e)
+        {
+            Thread.Sleep(5000);
+        }
         public string ShoppingCartId { get; set; }
 
         private ProductContext _db = new ProductContext();

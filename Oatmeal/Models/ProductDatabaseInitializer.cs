@@ -18,7 +18,7 @@ namespace Oatmeal.Models
         {
             var categories = new List<Category>
             {
-                new Category mh
+                new Category 
                 {
                     CategoryID = 1,
                     CategoryName = "Oatmeal"
